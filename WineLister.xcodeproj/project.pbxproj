@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6440586F221F055500761D3E /* AddWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440586E221F055500761D3E /* AddWineViewController.m */; };
 		64E06E7D221D8CB8000718C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E06E7C221D8CB8000718C2 /* AppDelegate.m */; };
-		64E06E80221D8CB8000718C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E06E7F221D8CB8000718C2 /* ViewController.m */; };
 		64E06E83221D8CB8000718C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E06E81221D8CB8000718C2 /* Main.storyboard */; };
 		64E06E85221D8CBA000718C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E06E84221D8CBA000718C2 /* Assets.xcassets */; };
 		64E06E88221D8CBA000718C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E06E86221D8CBA000718C2 /* LaunchScreen.storyboard */; };
 		64E06E8B221D8CBA000718C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E06E8A221D8CBA000718C2 /* main.m */; };
+		64E06E93221D8D9F000718C2 /* WineListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E06E92221D8D9F000718C2 /* WineListTableViewController.m */; };
+		64E06E96221D9DD0000718C2 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E06E95221D9DD0000718C2 /* TableViewCell.m */; };
+		64E06E99221DB630000718C2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E06E98221DB630000718C2 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6440586D221F055500761D3E /* AddWineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddWineViewController.h; sourceTree = "<group>"; };
+		6440586E221F055500761D3E /* AddWineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddWineViewController.m; sourceTree = "<group>"; };
 		64E06E78221D8CB8000718C2 /* Labb2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Labb2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E06E7B221D8CB8000718C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64E06E7C221D8CB8000718C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64E06E7E221D8CB8000718C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64E06E7F221D8CB8000718C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64E06E82221D8CB8000718C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64E06E84221D8CBA000718C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64E06E87221D8CBA000718C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64E06E89221D8CBA000718C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64E06E8A221D8CBA000718C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64E06E91221D8D9F000718C2 /* WineListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WineListTableViewController.h; sourceTree = "<group>"; };
+		64E06E92221D8D9F000718C2 /* WineListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineListTableViewController.m; sourceTree = "<group>"; };
+		64E06E94221D9DD0000718C2 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		64E06E95221D9DD0000718C2 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		64E06E97221DB630000718C2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		64E06E98221DB630000718C2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +69,19 @@
 			children = (
 				64E06E7B221D8CB8000718C2 /* AppDelegate.h */,
 				64E06E7C221D8CB8000718C2 /* AppDelegate.m */,
-				64E06E7E221D8CB8000718C2 /* ViewController.h */,
-				64E06E7F221D8CB8000718C2 /* ViewController.m */,
-				64E06E81221D8CB8000718C2 /* Main.storyboard */,
 				64E06E84221D8CBA000718C2 /* Assets.xcassets */,
-				64E06E86221D8CBA000718C2 /* LaunchScreen.storyboard */,
+				64E06E97221DB630000718C2 /* DetailViewController.h */,
+				64E06E98221DB630000718C2 /* DetailViewController.m */,
 				64E06E89221D8CBA000718C2 /* Info.plist */,
+				64E06E86221D8CBA000718C2 /* LaunchScreen.storyboard */,
 				64E06E8A221D8CBA000718C2 /* main.m */,
+				64E06E81221D8CB8000718C2 /* Main.storyboard */,
+				64E06E94221D9DD0000718C2 /* TableViewCell.h */,
+				64E06E95221D9DD0000718C2 /* TableViewCell.m */,
+				64E06E91221D8D9F000718C2 /* WineListTableViewController.h */,
+				64E06E92221D8D9F000718C2 /* WineListTableViewController.m */,
+				6440586D221F055500761D3E /* AddWineViewController.h */,
+				6440586E221F055500761D3E /* AddWineViewController.m */,
 			);
 			path = Labb2;
 			sourceTree = "<group>";
@@ -141,9 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E06E80221D8CB8000718C2 /* ViewController.m in Sources */,
+				64E06E99221DB630000718C2 /* DetailViewController.m in Sources */,
 				64E06E8B221D8CBA000718C2 /* main.m in Sources */,
+				6440586F221F055500761D3E /* AddWineViewController.m in Sources */,
+				64E06E96221D9DD0000718C2 /* TableViewCell.m in Sources */,
 				64E06E7D221D8CB8000718C2 /* AppDelegate.m in Sources */,
+				64E06E93221D8D9F000718C2 /* WineListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
